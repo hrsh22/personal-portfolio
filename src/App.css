@@ -84,6 +84,8 @@ p.danger{
   color: red;
 }
 
+/*Navbar*/
+
 nav.navbar{
   padding: 18px 0;
   position: fixed;
@@ -248,7 +250,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner{
   margin-top: 0px;
   padding: 260px 0 100px 0;
-  background-image: url(./assets/img/banner-bg.png);
+  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -425,6 +427,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
+
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
