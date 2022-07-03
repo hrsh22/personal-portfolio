@@ -12,7 +12,7 @@ export const Contact = () => {
     }
 
     const handleSubmit = () => {
-        
+         
     }
     
     const [formDetails, setFormDetails] = useState(formInitialDetails);
