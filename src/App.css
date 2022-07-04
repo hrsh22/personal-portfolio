@@ -352,6 +352,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
+  margin-left: 0px;
   top: 28%;
   position: absolute;
   bottom: 0;
