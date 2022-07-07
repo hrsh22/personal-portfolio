@@ -41,16 +41,16 @@ export const NavBar = () => {
                     <Nav className="ms-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={()=>onUpdateActiveLink('home')}>Home</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                        <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#" ><img src={navIcon1} alt=""/></a>
-                            <a href="#" ><img src={navIcon2} alt=""/></a>
-                            <a href="#" ><img src={navIcon3} alt=""/></a>
-                        </div>
+                            <a href="https://www.linkedin.com/in/hrsh22/" target="_blank"><img src={navIcon1} alt="Linked IN"/></a>
+                            <a href="https://github.com/hrsh22" target="_blank"><img src={navIcon2} alt="GitHub"/></a>
+                            <a href="https://www.instagram.com/hrsh02" target="_blank"><img src={navIcon3} alt="Instagram"/></a>
+                        </div><a href="mailto:harsh.gupta2211@gmail.com" target="_blank">
                         <button className="vvd" onClick={()=>console.log('connect')}>
-                        <span>Let's Connect</span></button>
+                        <span>Let's Connect</span></button></a>
                     </span>
                 </Navbar.Collapse>
             </Container>
