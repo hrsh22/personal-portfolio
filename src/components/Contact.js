@@ -26,19 +26,19 @@ export const Contact = () => {
                 <form action="https://formsubmit.co/harsh.gupta2211@gmail.com" method="POST">
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text"  placeholder="First Name" required />
+                      <input type="text" name="FIRST NAME" placeholder="First Name" required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text"  placeholder="Last Name" />
+                      <input type="text"  name="LAST NAME" placeholder="Last Name" />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email"  placeholder="Email Address" required  />
+                      <input type="email" name="EMAIL"  placeholder="Email Address" required  />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="tel"  placeholder="Phone No." required/>
+                      <input type="tel" name="PHONE NO"  placeholder="Phone No." required/>
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea rows="6" placeholder="Message" required></textarea>
+                      <textarea rows="6" name="MESSAGE" placeholder="Message" required></textarea>
                 <button type="submit"><span>SEND</span></button>
                     </Col>
                   </Row>
