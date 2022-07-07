@@ -31,7 +31,7 @@ export const NavBar = () => {
     return (
         <Navbar expand = "md" className={scrolled ? "scrolled":""}>
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="https://hrsh22.github.io/personal-portfolio/">
                     <img src={logo} alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
