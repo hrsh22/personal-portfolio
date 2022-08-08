@@ -10,36 +10,39 @@ import 'animate.css';
 
 export const Projects = () => {
     const projects = [
-        {
-            title: "Business Startup",
-            description: "Design & Development",
+        {   
+            title: "Exoplanet Hunting",
+            description: "It consists of a jupyter notebook which is used to find exoplanets in the solar system and to study them using machine learning.",
             imgUrl: projImg1,
+            link: "https://github.com/hrsh22/Exoplanet-hunting-Machine-Learning"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Portfolio Website",
+            description: "It is my portfolio website. It is a React website which is used to showcase my skills and projects.",
             imgUrl: projImg2,
+            link: "https://hrsh22.github.io/personal-portfolio/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Calculator",
+            description: "It is a basic calculator which is used to perform basic mathematical operations. It is made using Javascript, HTML and CSS.",
             imgUrl: projImg3,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
+            link: "https://hrsh22.github.io/Calculator/"
+        }//,
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg1,
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg2,
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg3,
+        // },
     ];
 
     return (
@@ -52,7 +55,7 @@ export const Projects = () => {
                         <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
 
                         <h2>Projects</h2>
-                        <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                        <p>This section contains the description and links of the projects which I did.</p>
                         </div>}
                     </TrackVisibility>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
